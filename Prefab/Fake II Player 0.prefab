@@ -207,6 +207,7 @@ Transform:
   - {fileID: 2652660733041643427}
   - {fileID: 4983669342697532642}
   - {fileID: 6633716139457829632}
+  - {fileID: 4528441155182331937}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5284003880076130115
@@ -447,3 +448,83 @@ MonoBehaviour:
   m_isMin: 0
   m_isMax: 0
   m_isInDeathZone: 0
+--- !u!1 &6807349551402091856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4528441155182331937}
+  - component: {fileID: 8216737516562463273}
+  m_Layer: 0
+  m_Name: Fire
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4528441155182331937
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6807349551402091856}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7873484092472025255}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8216737516562463273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6807349551402091856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cc30a5b8c50d0c4299133b4ed553254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_inputAction: {fileID: 1611435188168125915, guid: 9be7c415435dd7e4faff0db34f889c02,
+    type: 3}
+  m_onChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_onDown:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8268603008469001421}
+        m_TargetAssemblyTypeName: IIMono_UserPressReleaseActionInt, be.elab.intgenericsnam
+        m_MethodName: PressAction
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_onUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8268603008469001421}
+        m_TargetAssemblyTypeName: IIMono_UserPressReleaseActionInt, be.elab.intgenericsnam
+        m_MethodName: ReleaseAction
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_isPressed: 0
