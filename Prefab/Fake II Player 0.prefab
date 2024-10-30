@@ -1,0 +1,449 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3067437703709152944
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4983669342697532642}
+  - component: {fileID: 8510113972630043444}
+  m_Layer: 0
+  m_Name: Right Horizontal (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4983669342697532642
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067437703709152944}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.1102795, y: -0.023566589, z: 0.0038824268}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7873484092472025255}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8510113972630043444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067437703709152944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13287ee9d22fbe945b56c9a1752a906c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_inputAction: {fileID: -6066979555414377895, guid: 9be7c415435dd7e4faff0db34f889c02,
+    type: 3}
+  m_onValueChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5284003880076130115}
+        m_TargetAssemblyTypeName: IIMono_GamepadByteId2020Percent11, be.elab.intgenericsnam
+        m_MethodName: SetRightHorizontal
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_events:
+    m_onMinEnter:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onMaxEnter:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onDeathZoneEnter:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onMinExit:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onMaxExit:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onDeathZoneExit:
+      m_PersistentCalls:
+        m_Calls: []
+  m_borderRange: 0.8
+  m_deathZone: 0.1
+  m_axisValue: 0
+  m_isMin: 0
+  m_isMax: 0
+  m_isInDeathZone: 0
+--- !u!1 &4274242678251358212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 371934404225027223}
+  - component: {fileID: 666501224179168990}
+  m_Layer: 0
+  m_Name: Left Horizontal (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &371934404225027223
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4274242678251358212}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.1102795, y: -0.023566589, z: 0.0038824268}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7873484092472025255}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &666501224179168990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4274242678251358212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13287ee9d22fbe945b56c9a1752a906c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_inputAction: {fileID: -1496226029132836947, guid: 9be7c415435dd7e4faff0db34f889c02,
+    type: 3}
+  m_onValueChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5284003880076130115}
+        m_TargetAssemblyTypeName: IIMono_GamepadByteId2020Percent11, be.elab.intgenericsnam
+        m_MethodName: SetLeftHorizontal
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_events:
+    m_onMinEnter:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onMaxEnter:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onDeathZoneEnter:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onMinExit:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onMaxExit:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onDeathZoneExit:
+      m_PersistentCalls:
+        m_Calls: []
+  m_borderRange: 0.8
+  m_deathZone: 0.1
+  m_axisValue: 0
+  m_isMin: 0
+  m_isMax: 0
+  m_isInDeathZone: 0
+--- !u!1 &4386284650915915905
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7873484092472025255}
+  - component: {fileID: 5284003880076130115}
+  - component: {fileID: 8268603008469001421}
+  m_Layer: 0
+  m_Name: Fake II Player 0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7873484092472025255
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4386284650915915905}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 371934404225027223}
+  - {fileID: 2652660733041643427}
+  - {fileID: 4983669342697532642}
+  - {fileID: 6633716139457829632}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5284003880076130115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4386284650915915905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d4f10deadb7c8f4cad28df1fffec374, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_onIntegerIndexChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: IISNAM16KMono_PlayersGamepad, be.elab.intgenericsnam
+        m_MethodName: PushIn
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_index: 08000000070000000600000005000000
+  m_gamepad:
+    m_id2020: 18
+    m_joystickLeftHorizontal: 0
+    m_joystickLeftVertical: 0
+    m_joystickRightHorizontal: 0
+    m_joystickRightVertical: 0
+  m_currentValue: 0
+  m_previousValue: 0
+--- !u!114 &8268603008469001421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4386284650915915905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b64cbabaf36d32045961eca09ac14278, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_actionOnPress: 1005
+  m_actionOnRelease: 2005
+  m_index: c5090000c8010000
+  m_onIntegerIndexChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: IISNAM16KMono_PlayersGamepad, be.elab.intgenericsnam
+        m_MethodName: PushIn
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &5470270052655907007
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2652660733041643427}
+  - component: {fileID: 5119984289232154739}
+  m_Layer: 0
+  m_Name: Left Vertical (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2652660733041643427
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5470270052655907007}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.1102795, y: -0.023566589, z: 0.0038824268}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7873484092472025255}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5119984289232154739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5470270052655907007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13287ee9d22fbe945b56c9a1752a906c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_inputAction: {fileID: -9160906198192501621, guid: 9be7c415435dd7e4faff0db34f889c02,
+    type: 3}
+  m_onValueChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5284003880076130115}
+        m_TargetAssemblyTypeName: IIMono_GamepadByteId2020Percent11, be.elab.intgenericsnam
+        m_MethodName: SetLeftVertical
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_events:
+    m_onMinEnter:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onMaxEnter:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onDeathZoneEnter:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onMinExit:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onMaxExit:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onDeathZoneExit:
+      m_PersistentCalls:
+        m_Calls: []
+  m_borderRange: 0.8
+  m_deathZone: 0.1
+  m_axisValue: 0
+  m_isMin: 0
+  m_isMax: 0
+  m_isInDeathZone: 0
+--- !u!1 &6482230806102360050
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6633716139457829632}
+  - component: {fileID: 7258741182324057455}
+  m_Layer: 0
+  m_Name: Right Vertical (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6633716139457829632
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6482230806102360050}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.1102795, y: -0.023566589, z: 0.0038824268}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7873484092472025255}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7258741182324057455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6482230806102360050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13287ee9d22fbe945b56c9a1752a906c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_inputAction: {fileID: -6231047234172350783, guid: 9be7c415435dd7e4faff0db34f889c02,
+    type: 3}
+  m_onValueChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5284003880076130115}
+        m_TargetAssemblyTypeName: IIMono_GamepadByteId2020Percent11, be.elab.intgenericsnam
+        m_MethodName: SetRightVertical
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_events:
+    m_onMinEnter:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onMaxEnter:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onDeathZoneEnter:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onMinExit:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onMaxExit:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onDeathZoneExit:
+      m_PersistentCalls:
+        m_Calls: []
+  m_borderRange: 0.8
+  m_deathZone: 0.1
+  m_axisValue: 0
+  m_isMin: 0
+  m_isMax: 0
+  m_isInDeathZone: 0

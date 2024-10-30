@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.elab.intgenericsnam",                              
+  "displayName": "Integer Generic SNAM16k",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "Static Native Array Mono of Generic Integer Input for multiplayer.",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://github.com/EloiStree/2024_04_07_GenericAsIntegerDateToSNAM16K.git",
+"footprint":"",
+"revision":""},     
+  "category": "Script"                   
+} 
