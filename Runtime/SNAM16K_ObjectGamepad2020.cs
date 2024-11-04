@@ -35,4 +35,3 @@ public class SNAM16K_ObjectGamepad2020 : SNAM_Generic16KMono<GamepadByteId2020Pe
     }
 
 }
-
