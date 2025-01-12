@@ -21,7 +21,7 @@ public class IISNAM16KMono_PlayersGamepad : MonoBehaviour
     public int m_lastValue;
     public int m_firstTwoDigits;
     public bool m_playerInGame;
-    public GamepadByteId2020Percent11 m_lastGamepad;
+    public STRUCT_GamepadByteId2020Percent11 m_lastGamepad;
     public GamepadId2020Extra m_lastGamepadExtra;
     public int m_claimLeft;
     public int m_playerInGameCount;
@@ -32,7 +32,7 @@ public class IISNAM16KMono_PlayersGamepad : MonoBehaviour
         m_lastIndex = index;
         m_lastValue = value;
         IntegerToGamepad2020Utility.GetTwoFirstDigits(value, out int first);
-        m_firstTwoDigits=first;
+        m_firstTwoDigits = first;
 
         IISNAM16KPlayersInGameRegister r = m_register.R();
 
@@ -44,17 +44,17 @@ public class IISNAM16KMono_PlayersGamepad : MonoBehaviour
             m_firstTwoDigits = first;
             if (first == m_startDigitOfGamepad)
             {
-                IntegerToGamepad2020Utility.ParseGamepadByteId2020FromInteger(value, out GamepadByteId2020Percent11 pad);
+                IntegerToGamepad2020Utility.ParseGamepadByteId2020FromInteger(value, out STRUCT_GamepadByteId2020Percent11 pad);
                 m_lastGamepad = pad;
                 m_playerGamepad.Set(arrayIndex, pad);
             }
-            else if(first == m_startDigitOfGamepadExtra)
+            else if (first == m_startDigitOfGamepadExtra)
             {
                 IntegerToGamepad2020Utility.ParseGamepadExtraByteId2020FromInteger(value, out GamepadId2020Extra pad);
                 m_lastGamepadExtra = pad;
                 m_playerGamepadExtra.Set(arrayIndex, pad);
             }
-           
+
         }
     }
 }

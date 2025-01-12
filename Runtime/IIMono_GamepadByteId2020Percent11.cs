@@ -8,7 +8,7 @@ public class IIMono_GamepadByteId2020Percent11 : MonoBehaviour
     public int [] m_index = new int[] { 2501};
 
     [Header("Debug")]
-    public GamepadByteId2020Percent11 m_gamepad;
+    public STRUCT_GamepadByteId2020Percent11 m_gamepad;
     public int m_currentValue;
     public int m_previousValue;
 
